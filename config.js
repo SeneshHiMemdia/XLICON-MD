@@ -3,28 +3,28 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "218914807168"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "94771141157"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'xheikhsalman4422@gmail.com'
 global.github = 'https://github.com/salmanytofficial/XLICON-MD'
-global.location = 'Lahore Pak'
+global.location = 'Colombo'
 global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '218914807168' 
-global.devs = '218926265138';
+global.sudo = process.env.SUDO || '94771141157' 
+global.devs = '94771141157';
 global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
 module.exports = {
-  sessionName:  process.env.SESSION_ID ||  "XLICON-MD;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUg3dktTMlh5Kzl5ZW9RVXlra3ZhdHAxTTJFempqV29abk42WEg3Z2VGOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic0JWNHN2aVA3WTVRZnM0cWNjTUkzRzJpSFc4aXIvWWVZR0dTaVJNeWZYMD0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZUFpxL0VyMC9DNmhmRVh0TE9DODdnVDZXN2NSR0lwRUxSVFJsU2Z2ODJRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzUWZTNXZreHJoa3UzM0grWk5FTmEyWTZnV1dqQ0taSFRHVUJZSXNKd3lFPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZHZDVPcWxBV2x4RTVkNWRzL3pJU0ZySHBDV2dtNjd0RFBDMjF5OWo5V0k9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJlQmhVRW5RUWhtMjZNdllMbW5yZ2FDamc0UnJlWVRrdGh0eDFveTNUajA9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJmbDVxK3FUK2dTUCtPNEdyRWUxVFd3SmdQeHo2UWdXbzk0c3I0bEMvUVprK0dpd3VoREk0aG11ait4aVBpUm44ZFMzMVEzR2JqTHh1ekZQNDVZUEdpdz09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjIxMywiYWR2U2VjcmV0S2V5IjoiRlRrYWM0L0dRZWJLaFpzTWlTVkFzV3ZIeE1Db3lRYzVpZms0ZzhBOVV2VT0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiM1lhWVp3a1lUUS0zb2t0LXhsdUZRUSIsInBob25lSWQiOiIxZDY2MmRkZi0wZjBhLTRjYTMtOWZiMC1lYjBjZmE1ZGY5ZDUiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0JlYVdreVlYU3A0TDJpZ2RtRXZDZ3FoRm44PSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjVW1hUTJ1UVhSME5GTkV1cWJsRURvVFM1a0U9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNKemhyTmtCRU1pdGs2c0dHQUU9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjEvaXczZFhMNEM0LzZxTk5YZTYyc0RRR05wSVhZRmF4Tlh1NmNzSUJwWEU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkZpM0k3Mkh4Y1ZCRzBJSlJDcnIvaTNiTGdleXNCVlhMWHpnMHZic0d5b0lWS2xSVDdZYm5DdXR6U0czZDJnYlVtTzFoTmUwYkNUaHNpVFJRbkFWcEFBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJraHNkV044ejdBRzRsKzNjc0MwdzV2akdHU2F0ckpLR2NSRVptdUZpNlBvV1ZqOE1zdGg1QXJJQnBJczdqaXFLVkl3RW85RXlKNWR2enlHN004ekRpQT09In0sIm1lIjp7ImlkIjoiMjE4OTE0ODA3MTY4OjIyQHMud2hhdHNhcHAubmV0In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIxODkxNDgwNzE2ODoyMkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJkZjRzTjNWeStBdVArcWpUVjN1dHJBMEJqYVNGMkJXc1RWN3VuTENBYVZ4In19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzAxMTA3NDAzfQ==",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  'RUDY',
-  packname:  process.env.PACK_NAME || 'GIN',
+  sessionName:  process.env.SESSION_ID ||  "XLICON-MD;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid01vWlF3UE1kV3lUWG1vOXBzVUpaaVE4b1plQ0NUWlduVnlIa3FGM3ludz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWkw0NFl2OHdDaDE4T0FtWTMxcktBMk1OZ1BIR1QyQkdEZkZybDE0QVBsaz0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLQVpVMEoyeHJrY09SakhKV0dyZUs5VDlDcEdMZlR0VTdKZy9PaTlyL0VvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlUVNXNC9jTUFYWHJGSE1maitrSVh5cnNaUllPR1VwUk1nSGFDVDJPeEJvPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFCTWNuQ01HWVlReWJlZXh5bUgzTUxrK2t5ZXUrN3BFaUJKQS9ETWxwbmM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZIQkJEYkU2TENWRU92cXdFRzUyWFBHdGNOZHd6ZHdrelNFRDhvamg1akk9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1YklBZnlDTk1pY3NickNLT3VtWEpGKzJLbnFUSnJ6WGI5bCsrY2owUzhXbWtMQmJKVjNQQkhZUml6TXExQkNFWGZKVkFLVHo5WXlFZS8rTjZMUklEZz09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjE5NiwiYWR2U2VjcmV0S2V5IjoiUnU3T1VJMm9VSVp1VHpZM3NROVBuY0VRcFVFa21seVBHdk1temVjdnZUOD0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiRy1sejJrb1ZSQlNRTFNleEpEOWdmUSIsInBob25lSWQiOiI3MjcxY2ViNy1jZTYwLTQxZGQtODQ1My1mZGYwOWY0NDljYzkiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYXpMR3krSkFmKzNxMTd6dHA4R0pwS2FFN05zPSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYZXZhWG1ONEpoSCt4c3NxTklhbURxY1d5NTA9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNLcmpoUDRCRUlyVXA2c0dHQUU9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkZjZDhQWGlZOVFzajdnM1BSRTZubG5rYndhS0dXRVdqU004alpINUpCekk9IiwiYWNjb3VudFNpZ25hdHVyZSI6IjJmYk1jZEhDM3pIZ09nWXZKSnVKMG5iWFdpUXAwS1lxU3RIZDluZFNTQzNMZ3dxaEZrTWU1QS9wMmNIcU1Vais1Yi93S3JaMG1XWUVKN0plamZ4aUN3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ1bHZNNzlVZnFianRSWXJLS0tReFNSRWlvSlNZeEU4ZG51MmpoNllCVjBqUXhucWFzaEVnWHZRUjhSUXZZa2IwZUxDcHBwY3lpUFZWa2xVU1hUZmRCUT09In0sIm1lIjp7ImlkIjoiOTQ3NzExNDExNTc6MkBzLndoYXRzYXBwLm5ldCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDc3MTE0MTE1NzoyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlJYSGZEMTRtUFVMSSs0TnowUk9wNVo1RzhHaWhsaEZvMGpQSTJSK1NRY3kifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDE0NDAwMTJ9",  //PUT Session Id Here, 
+  author:  process.env.PACK_AUTHER ||  'SENESH',
+  packname:  process.env.PACK_NAME || 'MR.SENESH',
    
-  botname:   process.env.BOT_NAME === undefined ? "rudy-chan" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'rudy' : process.env.OWNER_NAME,  
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
+  botname:   process.env.BOT_NAME === undefined ? "MR.SENESH" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'SENESH' : process.env.OWNER_NAME,  
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
-  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
-  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'true' : process.env.ANTI_BAD_WORD,
+  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
